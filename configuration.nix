@@ -109,14 +109,11 @@
     vim
     wget
     git
-    hyprland
-    waybar
-    wofi
-    hyprpaper
-    hyprcursor
+    hyprland waybar wofi hyprpaper hyprcursor
     kitty
     zsh
     nautilus
+    unityhub vscode
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
