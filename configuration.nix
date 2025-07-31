@@ -107,10 +107,10 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim wget git kitty zsh 
-    dialog freerdp3 iproute2 libnotify netcat
+    dialog freerdp3 iproute2 libnotify netcat docker
     hyprland waybar wofi hyprpaper hyprcursor
     nautilus
-    unityhub vscode
+    unityhub vscode blender
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
