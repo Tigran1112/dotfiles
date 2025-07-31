@@ -1,0 +1,15 @@
+* {
+	font-family: "MesloLGS NF", monospace;
+	font-size: 20px;
+	color: #d3d3d3;
+	background: #0f0f0f;
+	border: transparent;
+	border-radius: 10px;
+	
+}
+#custom-start, #clock, #cpu, #memory, #custom-lang, #pulseaudio, #custom-power {
+	background: #d3d3d3;
+	color: #0f0f0f;
+	padding: 3px;
+	margin: 3px;
+}

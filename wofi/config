@@ -1,0 +1,17 @@
+prompt=
+lines=9
+width=600
+location=center
+show-icons=true
+allow-markup=true
+image-size=24
+insensitive=true
+term=kitty
+hide-scroll=true
+gtk-dark=true
+orintation=vertical
+run-cache-enabled=true
+run-cache-size=30
+run-seach-desktop=true
+run-search-path=true
+run-always-on-top=true

@@ -1,0 +1,30 @@
+{
+	"modules-left": ["custom/start"],
+	"modules-center": ["clock"],
+	"modules-right": ["cpu", "memory", "custom/lang", "pulseaudio", "custom/power"],
+	
+	"custom/start": {
+		"format": "START",
+		"on-click": "exec wofi --show drun --show-icons"
+	},
+	"clock": {
+		"tooltip": false
+	},
+	"cpu": {
+		"format": "CPU:{usage}%",
+		"interval": 3
+	},
+	"memory": {
+		"format": "MEM:{percentage}%",
+		"interval": 3
+	},
+	"custom/power": {
+		"format": "POWER",
+		"on-click": "~/.local/bin/power.sh"
+	},
+	"custom/lang": {
+		"format": "{}",
+		"exec": "~/.local/bin/switchlang.sh",
+		"interval": 1
+	}
+}
