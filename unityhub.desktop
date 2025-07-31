@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Unity Hub
+Comment=Make cool game
+Exec=steam-run unityhub
+Icon=unityhub
+Terminal=false
+Type=Application
+Categories=Development;IDE;
