@@ -108,7 +108,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim wget git kitty zsh 
-    steam-run gnome-keyring libdrm libva
+    steam-run gnome-keyring libdrm libva xdg-utils desktop-file-utils
     hyprland waybar wofi hyprpaper hyprcursor
     nautilus
     unityhub vscode blender
