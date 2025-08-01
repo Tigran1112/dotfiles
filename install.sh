@@ -5,6 +5,6 @@ sudo cp -rf wofi ~/.config/wofi
 sudo cp -rf configuration.nix /etc/nixos/configuration.nix
 sudo cp -rf wall1.jpg ~/Pictures/wall1.jpg
 mkdir ~/.local/share/applications
-sudo cp -rf unityhub.desktop ~/.local/share/applications/unityhub.desktop
+sudo cp -rf unityhub.desktop /usr/share/applications
 sudo nixos-rebuild switch
 reboot
