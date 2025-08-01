@@ -100,6 +100,7 @@
   programs.firefox.enable = true;
   programs.hyprland.enable = true;
   programs.zsh.enable = true;
+  programs.gnome.gnome-keyring.enable = true;
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -107,7 +108,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim wget git kitty zsh 
-    steam-run
+    steam-run gnome.gnome-keyring libdrm libva
     hyprland waybar wofi hyprpaper hyprcursor
     nautilus
     unityhub vscode blender
