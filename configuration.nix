@@ -107,7 +107,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim wget git kitty zsh 
-    gtk glib libGL xorg.libX11 xorg.libXrandr xorg.libXi mesa alsaLib vulcan-loader nss nspr libdrm ffmpeg libpulseaudio
+    steam-run
     hyprland waybar wofi hyprpaper hyprcursor
     nautilus
     unityhub vscode blender
