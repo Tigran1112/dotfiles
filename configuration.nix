@@ -100,7 +100,7 @@
   programs.firefox.enable = true;
   programs.hyprland.enable = true;
   programs.zsh.enable = true;
-  programs.gnome.gnome-keyring.enable = true;
+  services.gnome.gnome-keyring.enable = true;
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
